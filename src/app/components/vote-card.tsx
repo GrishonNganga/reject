@@ -22,7 +22,7 @@ export default function VoteCard({ vote }: { vote: VoteProps }) {
         />
       </div>
       <div className="flex flex-col">
-        <div className="flex gap-x-2 text-2xl font-bold">
+        <div className="flex gap-x-2 text-lg lg:text-2xl font-bold">
           <div>{vote.name}</div>
         </div>
         <div className="flex gap-x-2">
