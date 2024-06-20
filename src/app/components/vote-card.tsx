@@ -14,8 +14,8 @@ export default function VoteCard({ vote }: { vote: VoteProps }) {
       <div className="w-28 aspect-square">
         <Image
           src={vote.picture}
-          width={500}
-          height={500}
+          width={200}
+          height={200}
           quality={100}
           className="w-full rounded"
           alt={vote.name}
